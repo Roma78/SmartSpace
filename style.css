@@ -76,3 +76,63 @@ body {
 	}
 }
 /*--------------------------->END ОБНУЛЕНИЕ*/
+/*---------------------------------------------------->HEADER*/
+.header {
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 103px;
+	align-items: center;
+	grid-column-gap: 10px;
+	grid-row-gap: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 767.98px) {
+	.header__container {
+		flex-direction: column;
+		min-height: 0;
+	}
+}
+
+.header_logo {
+	font-weight: 800;
+	font-size: 23px;
+	color: inherit;
+}
+.header_menu {
+}
+/*====================>*/
+.menu {
+}
+.menu_list {
+	display: flex;
+	flex-wrap: wrap;
+	grid-column-gap: 46px;
+	grid-row-gap: 15px;
+}
+.menu_item {
+}
+
+.menu_link {
+	font-size: 13px;
+	font-weight: 700;
+	color: inherit;
+}
+
+.menu_link:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+	.menu_list {
+		justify-content: center;
+	}
+	.menu_link {
+		font-size: 18px;
+	}
+}
+/*------------------------------------------------>END HEADER*/
+
